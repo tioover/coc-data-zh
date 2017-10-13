@@ -10,8 +10,8 @@
 跳跃,Jump,20,,,行动
 攀爬,Climb,15,,,行动
 游泳,Swim,20,,,行动
-汽车驾驶,Drive Auto,20,驾驶,,行动
-驾驶,Pilot,1,驾驶,special blank,行动
+汽车驾驶,Drive Auto,20,,,行动
+驾驶,Pilot,1,,special blank,行动
 骑术,Ride,5,,,行动
 潜行,Stealth,20,,,隐秘
 追踪,Track,10,,,隐秘
@@ -26,18 +26,19 @@
 考古学,Archaeology,1,,,学问
 博物学,Natural World,10,,,学问
 电子学,Electronics,1,,modern,学问
-天文学,Astronomy,1,科学,,学问
-地质学,Geology,1,科学,,学问
-气象学,Meteorology,1,科学,,学问
-生物学,Biology,1,科学,,学问
-司法科学,Forensics,1,科学,,学问
-药学,Pharmacy,1,科学,,学问
-植物学,Botany,1,科学,,学问
-物理学,Physics,1,科学,,学问
-化学,Chemistry,1,科学,,学问
-密码学,Cryptography,1,科学,,学问
-动物学,Zoology,1,科学,,学问
-数学,Mathematics,1,科学,,学问
+科学,Science,1,,special variant,学问
+天文学,Astronomy,1,Science,,学问
+地质学,Geology,1,Science,,学问
+气象学,Meteorology,1,Science,,学问
+生物学,Biology,1,Science,,学问
+司法科学,Forensics,1,Science,,学问
+药学,Pharmacy,1,Science,,学问
+植物学,Botany,1,Science,,学问
+物理学,Physics,1,Science,,学问
+化学,Chemistry,1,Science,,学问
+密码学,Cryptography,1,Science,,学问
+动物学,Zoology,1,Science,,学问
+数学,Mathematics,1,Science,,学问
 侦查,Spot Hidden,25,,,调查
 聆听,Listen,20,,,调查
 图书馆利用,Library Use,20,,,调查
@@ -48,22 +49,24 @@
 医学,Medicine,1,,,医疗
 催眠,Hypnosis,1,,irregular,医疗
 闪避,Dodge,,,special,战斗
-斗殴,Brawl,25,格斗,,战斗
-剑,Sword,20,格斗,,战斗
-矛,Spear,20,格斗,,战斗
-斧头,Axe,15,格斗,,战斗
-绞索,Garrote,15,格斗,,战斗
-电锯,Chainsaw,10,格斗,,战斗
-连枷,Flail,10,格斗,,战斗
-鞭子,Whip,5,格斗,,战斗
+格斗,Fighting,,,special variant,战斗
+斗殴,Brawl,25,Fighting,,战斗
+剑,Sword,20,Fighting,,战斗
+矛,Spear,20,Fighting,,战斗
+斧头,Axe,15,Fighting,,战斗
+绞索,Garrote,15,Fighting,,战斗
+电锯,Chainsaw,10,Fighting,,战斗
+连枷,Flail,10,Fighting,,战斗
+鞭子,Whip,5,Fighting,,战斗
 投掷,Throw,20,,,战斗
-弓术,Bow,15,射击,,战斗
-手枪,Handgun,20,射击,,战斗
-步枪/霰弹枪,Rifle/Shotgun,25,射击,,战斗
-冲锋枪,Submachine Gun,15,射击,,战斗
-火焰喷射器,Flamethrower,10,射击,,战斗
-重武器,Heavy Weapons,10,射击,,战斗
-机关枪,Machine Gun,10,射击,,战斗
+射击,Firearms,,,special variant,战斗
+弓术,Bow,15,Firearms,,战斗
+手枪,Handgun,20,Firearms,,战斗
+步枪/霰弹枪,Rifle/Shotgun,25,Firearms,,战斗
+冲锋枪,Submachine Gun,15,Firearms,,战斗
+火焰喷射器,Flamethrower,10,Firearms,,战斗
+重武器,Heavy Weapons,10,Firearms,,战斗
+机关枪,Machine Gun,10,Firearms,,战斗
 操作重型机械,Operate Heavy Machinery,1,,,技术
 机械维修,Mechanical Repair,10,,,技术
 电气维修,Electrical Repair,10,,,技术
@@ -74,5 +77,5 @@
 潜水,Diving,1,,irregular,技术
 炮术,Artillery,1,,irregular,技术
 爆破,Demolitions,1,,irregular,技术
-语言（其他）,Language (Other),1,语言,special blank,语言
-语言（母语）,Language (Own),,语言,special blank,语言
+语言（其他）,Language (Other),1,,special blank,语言
+语言（母语）,Language (Own),,,special blank,语言
